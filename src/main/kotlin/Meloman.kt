@@ -41,6 +41,9 @@ fun main() {
             )
         } else {
             println("Внесенная сумма $amount рублей")
+            println(
+                "Вам скидка в 100 руб.: " + discount100 + " руб. "
+                        + (discount100 * 100U) % 100U + " коп.")
         }
     } else {
         if (booleanMeloman == true) {
